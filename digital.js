@@ -90,7 +90,7 @@ function update(){
    if(wakeuptime == hrs){
     img.height ="300";
        gudtext.innerText = "GOOD MORNING!! WAKE UP !!"
-        img.src = "./wakeup.PNG";
+        img.src = "./Digital clock/Images/wakeup.PNG";
         gt.innerText ="GRAB SOME HEALTHY BREAKFAST!!!";
    }
 
