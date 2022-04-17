@@ -90,27 +90,27 @@ function update(){
    if(wakeuptime == hrs){
     img.height ="300";
        gudtext.innerText = "GOOD MORNING!! WAKE UP !!"
-        img.src = "./Digital clock/Images/wakeup.PNG";
+        img.src = "./wakeup.PNG";
         gt.innerText ="GRAB SOME HEALTHY BREAKFAST!!!";
    }
 
    if(breaskfasttime == hrs){
     img.height ="300";
-       img.src = "./Digital clock/Images/lunch.PNG";
+       img.src = "./lunch.PNG";
        gudtext.innerText = "GOOD AFTERNOON !! TIME TO HAVE FOOD";
        gt.innerText = "Let's have some lunch !!";
    }
 
    if(naptime == hrs){
     img.height ="300";
-    img.src = "./Digital clock/Images/evening.png";
+    img.src = "./evening.png";
     gudtext.innerText = "GOOD EVENING !!";
     gt.innerText = "STOP YARNING, GET SOME TEA...ITS JUST EVENING!";
    }
 
    if(nighteup == hrs){
        img.height ="300";
-       img.src = "./Digital clock/Images/night.PNG";
+       img.src = "./night.PNG";
        gt.innerText = "CLOSE YOUR EYES AND GO SLEEP";
        gudtext.innerText = "GOOD NIGHT !!";
    }
